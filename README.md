@@ -7,12 +7,13 @@ The project managed by AWPM is required to have a file "project_info.json" in th
 
 Now, AWPM only supports for Windows.
 
-# Instruction
+# Usage
 
 ## Install
 ```
 pm install
 ```
+This command will setup environment vairable "AWPM_EXPORT". You can add it to the environment vairable "PATH".
 
 ## Manage project
 ```
