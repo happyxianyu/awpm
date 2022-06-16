@@ -1,0 +1,12 @@
+[tool.pytest.ini_options]
+# addopts = --capture=tee-sys
+# addopts = "--pdb"
+minversion = "6.0"
+
+log_cli = true
+log_cli_level = "INFO"
+log_file = "other/log/test.txt"
+
+testpaths = [
+    "test"
+]
