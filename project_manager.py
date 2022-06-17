@@ -77,7 +77,7 @@ def main():
     proj_root = Path(__file__).prnt
     insert_python_module_path(str(proj_root/'info'))
 
-    from info import PATH
+    from program_info import PATH
 
     if args.command == 'build':
         return
