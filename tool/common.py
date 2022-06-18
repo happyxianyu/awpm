@@ -6,6 +6,6 @@ self_path = Path(__file__)
 proj_root = self_path.prnt.prnt
 sys.path.insert(0, str(proj_root/'info'))
 
-from program_info import *
+from project_info import *
 
 

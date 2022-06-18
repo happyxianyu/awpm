@@ -13,7 +13,7 @@ from .core import *
 self_path = Path(__file__)
 proj_root = self_path.parents[2]
 sys.path.insert(0, (proj_root/'info').str)
-from program_info import PATH
+from project_info import PATH
 
 
 def run_cmd(cmd, cwd):

@@ -24,7 +24,7 @@ proj_root = find_proj_root()
 if proj_root is None:
     raise RuntimeError('Cannot find project root')
 sys.path.insert(0, str(proj_root/'info'))
-from program_info import *
+from project_info import *
 
 
 @dataclass
